@@ -148,6 +148,7 @@
 
   .card h2{
     text-align: left;
+    width: 100%;
   }
   .card p{
     text-align: left;
