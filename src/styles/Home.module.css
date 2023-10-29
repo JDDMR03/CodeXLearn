@@ -139,7 +139,7 @@
   .grid {
     grid-template-columns: 1fr;
     margin-bottom: 120px;
-    max-width: 400px;
+    max-width: 500px;
     place-content:center;
   }
 
