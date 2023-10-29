@@ -143,10 +143,6 @@
     place-content:center;
   }
 
-  .card {
-    padding: 1rem 2.5rem;
-  }
-
   .card h2{
     text-align: left;
   }
