@@ -132,9 +132,6 @@
 
 /* Mobile */
 @media (max-width: 700px) {
-  .content {
-    padding: 4rem;
-  }
 
   .grid {
     grid-template-columns: 1fr;
@@ -148,7 +145,6 @@
 
   .card h2{
     text-align: left;
-    width: 100%;
   }
   .card p{
     text-align: left;
