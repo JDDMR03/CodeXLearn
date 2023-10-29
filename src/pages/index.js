@@ -15,6 +15,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={`${styles.main} ${inter.className}`}>
+
         <div className={styles.center}>
             <h1>CodeXLearn</h1>
             <p>Entrena para programacion competitiva</p>
