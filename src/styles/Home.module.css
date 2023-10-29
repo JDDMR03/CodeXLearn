@@ -139,8 +139,7 @@
   .grid {
     grid-template-columns: 1fr;
     margin-bottom: 120px;
-    max-width: 500px;
-    place-content:center;
+    width: 100%;
   }
 
   .card h2{
