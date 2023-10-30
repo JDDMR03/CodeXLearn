@@ -135,11 +135,11 @@
 
   .grid {
     grid-template-columns: 100%;
-    grid-template-rows: 100%;
+    place-content: start;
+    justify-content: start;
   }
 
   .card{
-    align-items: start;
     width: 100%;
   }
 
