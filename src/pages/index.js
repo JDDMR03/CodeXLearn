@@ -29,7 +29,7 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             <h2>
-              Arreglos <span>-&gt;</span>
+              Variables <span>-&gt;</span>
             </h2>
           </a>
 
@@ -40,11 +40,8 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             <h2>
-              Learn <span>-&gt;</span>
+              Tipos de Datos <span>-&gt;</span>
             </h2>
-            <p>
-              Learn about Next.js in an interactive course with&nbsp;quizzes!
-            </p>
           </a>
 
           <a
@@ -54,11 +51,8 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             <h2>
-              Templates <span>-&gt;</span>
+              Entradas y Salidas <span>-&gt;</span>
             </h2>
-            <p>
-              Discover and deploy boilerplate example Next.js&nbsp;projects.
-            </p>
           </a>
 
           <a
@@ -68,13 +62,65 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             <h2>
-              Deploy <span>-&gt;</span>
+              Condicionales <span>-&gt;</span>
             </h2>
-            <p>
-              Instantly deploy your Next.js site to a shareable URL
-              with&nbsp;Vercel.
-            </p>
           </a>
+          <a
+            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            className={styles.card}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <h2>
+              Arreglos <span>-&gt;</span>
+            </h2> 
+          </a>
+
+          <a
+            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            className={styles.card}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <h2>
+              Busqueda Binaria <span>-&gt;</span>
+            </h2> 
+          </a>
+
+          <a
+            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            className={styles.card}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <h2>
+              Matrices <span>-&gt;</span>
+            </h2> 
+          </a>
+
+          <a
+            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            className={styles.card}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <h2>
+              Algoritmos de Busqueda <span>-&gt;</span>
+            </h2> 
+          </a>
+          
+          <a
+            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            className={styles.card}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <h2>
+              Recursividad <span>-&gt;</span>
+            </h2> 
+          </a>
+
+
         </div>
       </main>
     </>

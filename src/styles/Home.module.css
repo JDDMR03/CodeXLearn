@@ -150,6 +150,7 @@
   .card p{
     font-size: 20px;
     text-align: left;
+    font-weight: bold;
   }
 
   .center {
