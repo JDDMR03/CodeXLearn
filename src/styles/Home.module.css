@@ -151,7 +151,6 @@
   }
 
   .center {
-    padding: 8rem 0 6rem;
     justify-content: center;
   }
 
@@ -193,7 +192,7 @@
   }
 
   .description div {
-    align-items: center;
+    align-items: flex-end;
     pointer-events: none;
     inset: auto 0 0;
     padding: 2rem;
