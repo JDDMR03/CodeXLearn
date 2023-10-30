@@ -136,6 +136,10 @@
   .grid {
     grid-template-columns: 1fr;
   }
+  
+  .card h2{
+    text-align: left;
+  }
 
   .center {
     padding: 8rem 0 6rem;
