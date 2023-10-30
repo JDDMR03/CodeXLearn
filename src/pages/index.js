@@ -18,7 +18,7 @@ export default function Home() {
 
         <div className={styles.center}>
             <h1>CodeXLearn</h1>
-            <p>Entrena para programacion competitiva</p>
+            <p>Entrena para competencias de Programacion Competitiva</p>
         </div>
 
         <div className={styles.grid}>
