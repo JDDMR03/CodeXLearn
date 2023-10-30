@@ -140,7 +140,7 @@
   }
 
   .card{
-    width: 100%;
+    width: 700px%;
   }
 
   .card h2{
@@ -151,6 +151,7 @@
   }
 
   .center {
+    padding: 8rem 0 6rem;
     justify-content: center;
   }
 
