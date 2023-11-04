@@ -17,7 +17,16 @@ export default function Variables() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={`${styles.main} ${inter.className}`}>
-          <p>Variables</p>
+        <div className={styles.article}>
+          <h1>Variables</h1>
+          <h2>Que son?</h2>
+          <p>
+            Las variables en programacion son espacios en memoria que pueden
+            tomar cualquier valor siempre del mismo tipo, en programacion
+            competitiva las vemos como cajas, en las cuales podemos guardar
+            informacion siempre del mismo tipo.
+          </p>
+        </div>
       </main>
     </>
   )
