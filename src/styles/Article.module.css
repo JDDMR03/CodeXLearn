@@ -28,13 +28,6 @@
   color: rgba(1, 65, 255, 0.4);
 }
 
-.code{
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
 .codeviewer i{
   font-size: 25px;
   font-weight: bold;
@@ -74,10 +67,6 @@
     overflow-x: auto;
     width: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .code{
-    overflow-x: auto;
+    align-items: flex-start;
   }
 }
