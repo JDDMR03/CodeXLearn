@@ -32,7 +32,18 @@ export default function Home() {
             <h2>
               Variables <span>-&gt;</span>
             </h2>
-          </a> 
+          </a>
+
+          <a
+            href="/variables"
+            className={styles.card}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <h2>
+              Esqueleto <span>-&gt;</span>
+            </h2>
+          </a>
 
           <a
             href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
@@ -55,6 +66,18 @@ export default function Home() {
               Condicionales <span>-&gt;</span>
             </h2>
           </a>
+          
+          <a
+            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            className={styles.card}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <h2>
+              Ciclos <span>-&gt;</span>
+            </h2>
+          </a>
+
           <a
             href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
             className={styles.card}
@@ -95,7 +118,7 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             <h2>
-              Algoritmos de Busqueda <span>-&gt;</span>
+              Busquedas <span>-&gt;</span>
             </h2> 
           </a>
           
@@ -109,7 +132,6 @@ export default function Home() {
               Recursividad <span>-&gt;</span>
             </h2> 
           </a>
-
 
         </div>
       </main>
