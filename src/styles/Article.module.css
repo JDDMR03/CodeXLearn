@@ -40,7 +40,7 @@
 .table tr:hover {background-color: #f5f5f5;}
 
 @media (max-width: 700px) {
-  .article{
+  .table{
     overflow-x: auto;
   }
 }
