@@ -16,7 +16,7 @@ export default function CodeViewer() {
     `;
 
     return (
-      <div className={styles.code}> 
+      <div className={styles.codeviewer}> 
         <SyntaxHighlighter language="cpp" style={solarizedlight} showLineNumbers={true}>
           {code}
         </SyntaxHighlighter>

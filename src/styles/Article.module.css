@@ -35,12 +35,12 @@
   align-items: flex-start;
 }
 
-.code i{
+.codeviewer i{
   font-size: 25px;
   font-weight: bold;
 }
 
-.code button{
+.codeviewer button{
   padding: 5px;
 }
 
