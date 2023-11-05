@@ -18,6 +18,10 @@
   height: 100%;
 }
 
+.article strong{
+  color: rgba(1, 65, 255, 0.4);
+}
+
 .tables{
   width: 100%;
 }
