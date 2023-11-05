@@ -10,28 +10,30 @@ const data = [
 
 export default function TablaTiposDatos() {
   return (
-    <table className={styles.table}>
-      <thead>
-        <tr>
-          <th>Tipo de dato</th>
-          <th>Declaración</th>
-          <th>Descripcion</th>
-          <th>Límite inferior</th>
-          <th>Límite superior</th>
-        </tr>
-      </thead>
-      <tbody>
-        {data.map((fila, index) => (
-          <tr key={index}>
-            <td>{fila.tipo}</td>
-            <td>{fila.declaracion}</td>
-            <td>{fila.description}</td>
-            <td>{fila.limiteInferior}</td>
-            <td>{fila.limiteSuperior}</td>
+    <div className={styles.tables}>
+      <table className={styles.table}>
+        <thead>
+          <tr>
+            <th>Tipo de dato</th>
+            <th>Declaración</th>
+            <th>Descripcion</th>
+            <th>Límite inferior</th>
+            <th>Límite superior</th>
           </tr>
-        ))}
-      </tbody>
-    </table>
+        </thead>
+        <tbody>
+          {data.map((fila, index) => (
+            <tr key={index}>
+              <td>{fila.tipo}</td>
+              <td>{fila.declaracion}</td>
+              <td>{fila.description}</td>
+              <td>{fila.limiteInferior}</td>
+              <td>{fila.limiteSuperior}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
   );
 }
 
