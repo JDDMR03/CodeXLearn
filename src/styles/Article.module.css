@@ -18,13 +18,6 @@
   height: 100%;
 }
 
-.codeviewer{
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .article p{
   text-align: justify;
 }
@@ -61,5 +54,9 @@
   }
   .codeviewer{
     overflow-x: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
