@@ -18,6 +18,10 @@
   height: 100%;
 }
 
+.article p{
+  text-align: justify;
+}
+
 .article strong{
   color: rgba(1, 65, 255, 0.4);
 }
