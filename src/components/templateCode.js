@@ -1,5 +1,5 @@
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
-import { solarizedlight } from 'react-syntax-highlighter/dist/esm/styles/prism';
+import { solarizedlight } from 'react-syntax-highlighter/dist/cjs/styles/prism';
 
 const code = `
     #include<iostream>
