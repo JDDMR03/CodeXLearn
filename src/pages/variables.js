@@ -3,6 +3,7 @@ import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Article.module.css'
 import Link from 'next/link';
+import TablaTiposDatos from '../components/tiposDato.js';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -21,11 +22,12 @@ export default function Variables() {
           <h1>Variables</h1>
           <h2>Que son?</h2>
           <p>
-            Las variables en programacion son espacios en memoria que pueden
-            tomar cualquier valor siempre del mismo tipo, en programacion
+            Las variables en programación son espacios en memoria que pueden tomar
+            cualquier valor siempre del mismo tipo, mientras que en programación
             competitiva las vemos como cajas, en las cuales podemos guardar
-            informacion siempre del mismo tipo.
+            información siempre del mismo tipo.
           </p>
+          <TablaTiposDatos/>
         </div>
       </main>
     </>
