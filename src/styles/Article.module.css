@@ -18,6 +18,11 @@
   height: 100%;
 }
 
+.article pre{
+  background-color: #ffffff80;
+  border-radius: 5%;
+}
+
 .article p{
   text-align: justify;
 }
