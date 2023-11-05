@@ -1,11 +1,11 @@
 .main {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: flex-start;
   padding: 2rem;
   min-height: 100vh;
   width: 100%;
+  gap: 20px;
   height: 100%;
 }
 
@@ -18,9 +18,11 @@
   height: 100%;
 }
 
-.article pre{
-  background-color: #ffffff80;
-  border-radius: 5%;
+.codeviewer{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .article p{
@@ -55,6 +57,9 @@
 
 @media (max-width: 700px) {
   .tables{
+    overflow-x: auto;
+  }
+  .codeviewer{
     overflow-x: auto;
   }
 }

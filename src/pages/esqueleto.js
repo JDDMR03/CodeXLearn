@@ -24,7 +24,9 @@ export default function Esqueleto() {
           <p>
             Un codigo en C++ es bastante corto, aqui se muestra como se implementa
             un hola mundo clasico.
-          </p>
+          </p> 
+        </div>
+        <div className={styles.codeviewer}>
           <CodeViewer/>
         </div>
       </main>
