@@ -3,8 +3,8 @@ import { solarizedlight } from 'react-syntax-highlighter/dist/cjs/styles/prism';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
 import styles from '@/styles/Article.module.css'
 
-export default function CodeViewer() {
-    const code = `
+export default function CodeViewerTemplate() {
+    const template = `
     #include<iostream>
 
     using namespace std;
@@ -18,9 +18,9 @@ export default function CodeViewer() {
     return (
       <div className={styles.codeviewer}> 
         <SyntaxHighlighter language="cpp" style={solarizedlight} showLineNumbers={true}>
-          {code}
+          {template}
         </SyntaxHighlighter>
-        <CopyToClipboard text={code}>
+        <CopyToClipboard text={template}>
           <button><i class="nf nf-md-content_copy"></i></button>
         </CopyToClipboard>
       </div>

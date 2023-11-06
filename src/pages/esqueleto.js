@@ -3,7 +3,7 @@ import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Article.module.css'
 import Link from 'next/link';
-import CodeViewer from '../components/templateCode.js';
+import CodeViewerTemplate from '../components/templateCode.js';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -27,7 +27,7 @@ export default function Esqueleto() {
           </p> 
         </div>
         <div className={styles.codeviewer}>
-          <CodeViewer/>
+          <CodeViewerTemplate/>
         </div>
       </main>
     </>
