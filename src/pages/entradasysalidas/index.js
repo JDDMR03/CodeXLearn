@@ -3,7 +3,7 @@ import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Article.module.css'
 import Link from 'next/link';
-import CodeViewerEnySal from '../components/enysalcode.js';
+import CodeViewerEnySal from '@/components/enysalcode.js';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -52,7 +52,7 @@ export default function Esqueleto() {
           <h2>Problemas</h2>
           <div className={styles.grid}>
             <a
-              href="/variables"
+              href="/entradasysalidas/problemas"
               className={styles.card}
               target="_blank"
               rel="noopener noreferrer"
@@ -60,7 +60,7 @@ export default function Esqueleto() {
             <h2>
               Problemas <span>-&gt;</span>
             </h2>
-          </a> 
+            </a> 
           </div>
         </div>
       </main>
