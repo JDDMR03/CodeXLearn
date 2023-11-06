@@ -59,6 +59,55 @@
   color: white;
 }
 
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(25%, auto));
+  max-width: var(--max-width);
+  width: 100%;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 1rem 1.2rem;
+  border-radius: var(--border-radius);
+  background: rgba(var(--card-rgb), 0);
+  border: 1px solid rgba(var(--card-border-rgb), 0);
+  transition: background 200ms, border 200ms;
+  width: 100%;
+}
+
+.card span {
+  display: inline-block;
+  transition: transform 200ms;
+}
+
+.card h2 {
+  font-size: 21px;
+  font-weight: 550;
+  margin-bottom: 0.7rem;
+  text-align: center;
+}
+
+/* Enable hover only on non-touch devices */
+@media (hover: hover) and (pointer: fine) {
+  .card:hover {
+    background: rgba(var(--card-rgb), 0.1);
+    border: 1px solid rgba(var(--card-border-rgb), 0.15);
+  }
+
+  .card:hover span {
+    transform: translateX(4px);
+  }
+}
+
+@media (prefers-reduced-motion) {
+  .card:hover span {
+    transform: none;
+  }
+}
+
 @media (max-width: 700px) {
   .tables{
     overflow-x: auto;
@@ -69,5 +118,16 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+  }
+  .grid {
+    grid-template-columns: repeat(1, 100%);
+  }
+
+  .card{
+    width: 100%;
+  }
+  
+  .card h2{
+    text-align: left;
   }
 }
