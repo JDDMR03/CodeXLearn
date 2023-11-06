@@ -57,6 +57,17 @@ export default function Home() {
           </a>
 
           <a
+            href="/operadores"
+            className={styles.card}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <h2>
+              Operadores <span>-&gt;</span>
+            </h2>
+          </a>
+
+          <a
             href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
             className={styles.card}
             target="_blank"
@@ -87,18 +98,7 @@ export default function Home() {
             <h2>
               Arreglos <span>-&gt;</span>
             </h2> 
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2>
-              Busqueda Binaria <span>-&gt;</span>
-            </h2> 
-          </a>
+          </a> 
 
           <a
             href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
@@ -108,17 +108,6 @@ export default function Home() {
           >
             <h2>
               Matrices <span>-&gt;</span>
-            </h2> 
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2>
-              Busquedas <span>-&gt;</span>
             </h2> 
           </a>
           
